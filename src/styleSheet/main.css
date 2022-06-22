@@ -1,0 +1,40 @@
+main{
+    background-color: var(--darkBlue);
+    padding: 2rem;
+    color: var(--white);
+    max-width: 60vh;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.starImage{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--veryDarkBlue);
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+p{
+    color: var(--lightGrey);
+    font-size: 0.8rem;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.text{
+    width: 90%;
+}
+
+@media (min-width:600px) {
+    main{
+        max-width: 50vh;
+    }
+}

@@ -1,0 +1,18 @@
+.number{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--veryDarkBlue);
+    border-radius: 50%;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.number:hover{
+    background-color: var(--mediumGrey);
+    color: var(--white);
+    opacity: 1;
+    cursor: pointer;
+}

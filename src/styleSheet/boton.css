@@ -1,0 +1,20 @@
+
+button{
+    width: 90%;
+    background-color: var(--orange);
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 0.5rem 2rem;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+button:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    cursor: pointer;
+    font-weight: 600;
+}
