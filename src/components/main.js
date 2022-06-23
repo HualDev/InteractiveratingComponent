@@ -2,13 +2,14 @@ import starImage from '../images/icon-star.svg'
 import '../styleSheet/main.css'
 import Number from '../components/number'
 import Boton from './boton';
+import Selected from './selected';
 
 
 function Main(){
     return(
-        <main>
+        <main className='main'>
             <div className='starImage'>
-                <img src={starImage} alt='Star image' />
+                <img src={starImage} alt=' yellow Star' />
             </div>
 
             <h1>How did we do?</h1>
@@ -26,9 +27,9 @@ function Main(){
                <Number number='5' />
             </div>
             
-            <Boton />
-            
+            <Boton />            
         </main>
+
     )
 }
 
