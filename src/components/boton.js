@@ -1,9 +1,11 @@
 import '../styleSheet/boton.css'
 
-function Boton(){
+function Boton(props){
     return(
-        <button>Submit</button>
+        <button id='boton' onClick={props.submit}>Submit</button>
     )
+    
 }
 
 export default Boton
+

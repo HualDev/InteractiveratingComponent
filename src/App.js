@@ -5,9 +5,20 @@ import Main from './components/main.js'
 import Selected from './components/selected';
 
 function App() {
+
+  const cinco = () =>{
+    let valor = document.getElementById('5').textContent
+    console.log(valor)
+    return valor
+}
+
   return (        
-    <Selected />
-  
+    <>
+      <Main />
+      <Selected numeroSeleccionado='4' />
+    </>
+    
+    
   );
 }
 
